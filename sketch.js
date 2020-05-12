@@ -31,7 +31,7 @@ function draw() {
   text("DEFORMATION =",868,383);
   fill("orange")
   text("Global Car Safety Organisation",670,30)
-  if(wall.x-car.x<(car.width+wall.width)/2)
+  if(wall.x-car.x===(car.width+wall.width)/2)
   {
     car.velocityX = 0;
     deform();
